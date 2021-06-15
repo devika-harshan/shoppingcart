@@ -1,0 +1,82 @@
+
+hr.new1{
+
+  border-top: 0px solid rgb(165, 161, 161);   
+}
+.disc{
+  display: inline;
+}
+small{
+  display: inline-flex;
+}
+div.card {
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+img{
+  width:30%;
+  height:30%;
+  float: left;
+}
+.heading{
+ padding-right:25px;
+ overflow: hidden;
+}
+
+.myclass{
+padding-left:95%;
+}
+.roundbutton{
+ 
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid rgb(99, 97, 97);
+  
+}
+input[type=text] {
+  width: 30px;}
+
+  a:link {
+    text-decoration: none;
+    padding-right: 20px;
+    font-weight: bold;
+  }
+  a:hover {
+   color: rgb(12, 12, 110);}
+   /* .col-lg-5{
+     display:inline-flex;
+     
+   } */
+small.org{
+   
+  font-size:80%;
+  /* -webkit-text-decoration-line: line-through;  */
+   text-decoration-line: line-through; 
+   font-style: italic;
+
+}
+#offval{
+  color: green;
+}
+
+#stock{
+  color: rgb(23, 13, 163);
+  font-size:90%;
+}
+#rows-2{
+  color: rgb(131, 130, 129);
+}
+.afdel{
+  display: inline-flex;
+  padding-left: 70%;
+  
+}
+#tot{
+  font-weight:bolder ;
+}
+td{
+padding-bottom:10px;
+}
+

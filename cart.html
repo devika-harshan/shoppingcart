@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="may10.css">
+    <script type="text/javascript" src="cart.js"></script>
+    <!-- <script src="may10.js"></script> -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Shopping Cart</title>
+</head>
+
+<body class="bg-light">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-11">
+
+                <div class="card p-4 my-3 border">
+                    <h3 class="">Shopping Cart </h3>
+                    <!-- <p class="myclass">price</p> -->
+                    <hr class="new1">
+                    <!-- <form action="/action_page.php">
+                    <input type="checkbox" value="" >
+                 <small>select all items </small> -->
+
+                    <div class="productdet">
+                        <img src="https://m.media-amazon.com/images/S/aplus-media/vc/b5923ee8-79ca-48e6-8314-e2df5d7293be.__CR0,0,300,300_PT0_SX300_V1___.png"
+                            alt="nivea mens facewash">
+                        <h5 class="mb-2 heading"> NIVEA Men Face Wash, All in 1 Charcoal, to Detoxify & Refresh Skin
+                            with 10x Vitamin C Effect, for All Skin Types, 100 g</h5>
+                        <p class="mb-1" id="stock">In stock</p>
+                        <p class="mb-1">Free shipping</p>
+                        <p class="mb-1">Size :<b>100gm</b></p>
+                        <span class="mb-1">Price: $<b id="disc-pri">49.20</b></span>
+
+                        <small class="org"> $60.00</small>
+                        <span id="offval"></span>
+                        <div class="mb-1 py-3" id="bx-2">
+                            <button type="button" class="roundbutton" id="dec">-</button>
+                            <input id="qnty" type="text" value="">
+                            <button type="button" class="roundbutton" id="inc">+</button>
+                        </div>
+                        <nav class="chng">
+                            <a href="">Remove</a>
+                            <a href="">Save for later</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="card p-4 my-3 border">
+                    <h5 id="rows-2">Price Details</h5>
+                    <hr class="new1">
+                    <table>
+                        <tr>
+                            <td>Price</td>
+                            <td id="fp">0</td>
+                        </tr>
+                        <tr>
+                            <td>Discount</td>
+                            <td id="fd">0</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Charge</td>
+                            <td id="fdel">0</td>
+                        </tr>
+                        <tr>
+                            <td id="tot">Total Amount</td>
+                            <td id="ft">0</td>
+                        </tr>
+                        
+                    </table>
+
+
+                    <hr class="new1">
+                    <div class="d-grid gap-4 col-10 mx-auto">
+                        <button class="btn btn-warning" type="button">Place the order</button>
+                    </div>
+                </div>
+
+            </div>
+
+</body>
+
+
+</html>
