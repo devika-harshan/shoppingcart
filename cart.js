@@ -21,4 +21,4 @@ document.getElementById("dec").addEventListener("click", function () {
 })
 // // document.getElementById("fp").innerText = unitPrice;
 // let discount = document.getElementById("fd").innerText;
-// let delchg = document.getElementById("fdel").innerText;
+//  let delchg = document.getElementById("fdel").innerText;
