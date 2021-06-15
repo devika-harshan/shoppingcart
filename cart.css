@@ -49,17 +49,6 @@ input[type=text] {
      display:inline-flex;
      
    } */
-small.org{
-   
-  font-size:80%;
-  /* -webkit-text-decoration-line: line-through;  */
-   text-decoration-line: line-through; 
-   font-style: italic;
-
-}
-#offval{
-  color: green;
-}
 
 #stock{
   color: rgb(23, 13, 163);
